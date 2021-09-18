@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/tip-calculator-app-main
 
 # testing
 /coverage
