@@ -11,7 +11,13 @@
 @media(max-width:2560px){
   body {
     background-color: var(--LightGrayishCyan);
-    
+    font-family: 'Space Mono', monospace;
+  }
+  h2{
+    color: var(--StrongCyan);
+  }
+  h5{
+    color: var(--LightGrayishCyan)!important;
   }
   .header{
     text-align: center;
@@ -33,6 +39,7 @@
   .divone{
     width: 26vw;
     height: 44vh;
+    color:var(--LightGrayishCyan) ;
     background-color: var(--White);
     margin-top: 3vh;
     border-bottom-left-radius: 10px;
@@ -96,6 +103,9 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
+  .customone button:hover{
+    background-color: var(--StrongCyan);
+  }
   .customtwo button{
     width: 5vw;
     height: 4vh;
@@ -107,6 +117,9 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
+  .customtwo button:hover{
+    background-color: var(--StrongCyan);
+  }
   .custominputdiv input{
     width: 4.3vw;
     height: 3.3vh;
@@ -117,6 +130,33 @@
     outline: none !important;
   	border: 2px solid var(--StrongCyan);
   }
+  .divtwo h5{
+    color: white;
+  }
+  .tip-amount{
+    display: flex;
+    justify-content: space-around;
+  }
+  .sp{
+    font-size: 10px;
+  }
+  .resetbuttondiv{
+    width: 26vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .reset{
+    width: 18vw;
+    height: 5vh;
+    border: none;
+    background-color:  var(--StrongCyan);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
 }
 @media(max-width:1440px){
   body {
@@ -144,7 +184,7 @@
   }
   .section{
     width: 99vw;
-    height: 90vh;
+    height: 120vh;
     background-color: var(--White);
     margin: auto;
     border-bottom-left-radius: 10px;
@@ -155,7 +195,7 @@
   }
   .divone{
     width: 90vw;
-    height: 50vh;
+    height: 60vh;
     margin-left: 3vw;
   }
   .divtwo{
@@ -207,7 +247,28 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
-  
+  .divtwo{
+    margin-top: 20px;
+  }
+  .people h5{
+    margin-top: 50px;
+  }
+  .resetbuttondiv{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .reset{
+    width: 60vw;
+    height: 5vh;
+    border: none;
+    background-color:  var(--StrongCyan);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
 }
 @media(max-width:375px){
   .App {
